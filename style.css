@@ -1,0 +1,28 @@
+body {
+	display: grid;
+	place-items: center;
+	height: 100dvh;
+	background: #222;
+    overflow: hidden;
+}
+
+canvas {
+	position: fixed;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+}
+a.fa {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a.fa:hover {
+    background-color: #555;
+  }
+  
+  
